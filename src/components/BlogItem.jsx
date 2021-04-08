@@ -5,7 +5,7 @@ const BlogItem = (item) => {
     const { slug, author, bodyExcerpt, publishedAt, title } = item;
     return (
         <>
-            <Link to={`/blog/${slug}`}>
+            <Link to={`/intro-react-router/blog/${slug}`}>
                 <div className='blog'>
                     <h2>{title}</h2>
                     <p>{bodyExcerpt}</p>

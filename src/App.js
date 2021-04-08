@@ -19,22 +19,22 @@ function App() {
                     </nav>
                     <main>
                         <Switch>
-                            <Route exact path='/'>
+                            <Route exact path='/intro-react-router/'>
                                 <Home />
                             </Route>
-                            <Route exact path='/about'>
+                            <Route exact path='/intro-react-router/about'>
                                 <About />
                             </Route>
-                            <Route exact path='/blog'>
+                            <Route exact path='/intro-react-router/blog'>
                                 <Blog />
                             </Route>
-                            <Route exact path='/blog/:id'>
+                            <Route exact path='/intro-react-router/blog/:id'>
                                 <BlogDetails />
                             </Route>
-                            <Route exact path='/contact'>
+                            <Route exact path='/intro-react-router/contact'>
                                 <Contact />
                             </Route>
-                            <Route path='*'>
+                            <Route path='/intro-react-router/*'>
                                 <Error />
                             </Route>
                         </Switch>

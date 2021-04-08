@@ -6,16 +6,16 @@ const Navbar = () => {
         <>
             <ul>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link to='/intro-react-router/'>Home</Link>
                 </li>
                 <li>
-                    <Link to='/about'>About</Link>
+                    <Link to='/intro-react-router/about'>About</Link>
                 </li>
                 <li>
-                    <Link to='/blog'>Blog</Link>
+                    <Link to='/intro-react-router/blog'>Blog</Link>
                 </li>
                 <li>
-                    <Link to='/contact'>Contact</Link>
+                    <Link to='/intro-react-router/contact'>Contact</Link>
                 </li>
             </ul>
         </>
