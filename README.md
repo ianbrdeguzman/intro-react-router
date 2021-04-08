@@ -1,6 +1,6 @@
 # Intro to React Router
 
-Check it out [here!]()
+Check it out [here!](https://ianbrdeguzman.github.io/intro-react-router/)
 
 ## Created using:
 
